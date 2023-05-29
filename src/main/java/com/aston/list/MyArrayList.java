@@ -47,7 +47,7 @@ public interface MyArrayList<E> {
 
     /**
      * Sorts the elements of the list using the QuickSort algorithm.
-     * @param comparator
+     * @param comparator the comparator to determine the order of the elements.
      */
     void quickSort(Comparator<? super E> comparator);
 }
